@@ -1,0 +1,20 @@
+{
+  "Group": "unknownrek.hytalemodding",
+  "Name": "globalDeathSettings",
+  "Version": "1.0-SNAPSHOT",
+  "Description": "Adds a return command that sends player to world spawn",
+  "Authors": [
+    {
+      "Name": "unknownrek",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "Main": "unknownrek.hytalemodding.GlobalDeathSettingsPlugin"
+}
