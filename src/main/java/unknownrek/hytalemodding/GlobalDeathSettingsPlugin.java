@@ -11,7 +11,7 @@ import javax.annotation.Nonnull;
 
 public class GlobalDeathSettingsPlugin extends JavaPlugin {
 
-    private final Config<PluginConfig> config = this.withConfig("PersistentWorldDeathSettings", PluginConfig.CODEC);
+    private final Config<PluginConfig> config = this.withConfig("GlobalDeathSettings", PluginConfig.CODEC);
 
     public static final HytaleLogger LOGGER = HytaleLogger.forEnclosingClass();
 
