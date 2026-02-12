@@ -1,35 +1,16 @@
-# hytale-veinminer
-Permission driven veinminer for Hytale
+# hytale-globalDeathSettings
+Ever noticed death settings don't apply across Worlds?
 
-Crouch to veinmine 
+This mod is here to fix that.
 
-## Useful information for admins and personal use
+Using the same-style config you can change per world, this allows you to make sure this is applied across all worlds, exisiting and new.
 
-Grant players permission 
-    
-    unknownrek.hytalemodding.veinmine.allowed
-
-Or if you're not interest in that at all, change the mod config
-
-    "LockedBehindPermission": false
-
-and they will be able to veinmine using the tools you config while breaking the blocks you config
-
-whitelist matching is case insensitive
-
-Example config to be able to veinmine while holding any pickaxe or any hatchet
-
-    "WhitelistHeldItemIds": [
-        "Tool_Pickaxe_*",
-        "tool_hatchet_*"
-    ]
-
-
-and to be able to only veinmine ores and wood blocks
-
-    "WhitelistBlockIds": [
-        "Ore_*",
-        "Wood_*"
-    ]
-
-You can be more specific if you want the players to be able to only veinmine a specific wood type by completing that woods id
+    {
+      "ItemsLossMode": "Configured",
+      "ItemsAmountLossPercentage": 20.0,
+      "ItemsDurabilityLossPercentage": 0.0
+    }
+ItemLossMode can be set to: 
+- "Configured" to respect the other 2 configurations, 
+- "All" to make you drop all items on the ground, still applying the durability loss configured
+- "None" which makes you not lose any items, but still applies the durability loss configured
