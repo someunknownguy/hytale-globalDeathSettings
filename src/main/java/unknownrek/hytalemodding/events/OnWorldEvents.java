@@ -6,10 +6,8 @@ import com.hypixel.hytale.server.core.universe.world.events.AddWorldEvent;
 import com.hypixel.hytale.server.core.universe.world.events.StartWorldEvent;
 import unknownrek.hytalemodding.GlobalDeathSettingsPlugin;
 import unknownrek.hytalemodding.config.PluginConfig;
-import static unknownrek.hytalemodding.GlobalDeathSettingsPlugin.LOGGER;
 
-import java.lang.reflect.Field;
-import java.util.Arrays;
+import static unknownrek.hytalemodding.GlobalDeathSettingsPlugin.LOGGER;
 
 public class OnWorldEvents {
 
